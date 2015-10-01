@@ -1,0 +1,21 @@
+{
+    "name": "abhishek/authorize.net-yii2",
+    "description": "Authorize.net Payment Extension on Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Abhishek Singh Chauhan",
+            "email": "abhishek.it.1986@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "abhishek\\authorizenet\\": ""
+        }
+    }
+}
