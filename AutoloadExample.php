@@ -2,13 +2,4 @@
 
 namespace abhishek\authorizenet;
 
-/**
- * This is just an example.
- */
-class AutoloadExample extends \yii\base\Widget
-{
-    public function run()
-    {
-        return "Hello!";
-    }
-}
+require(__DIR__ . '/../../../vendor/authorizenet/authorizenet/autoload.php');
